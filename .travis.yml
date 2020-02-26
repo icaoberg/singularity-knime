@@ -54,4 +54,3 @@ install:
 script:
   - bash ./build.sh
   - du -h singularity-knime.simg
-  - singularity run --app knime singularity-knime.simg -help
